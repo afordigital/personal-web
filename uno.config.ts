@@ -23,13 +23,22 @@ export default defineConfig({
       'White-Custom': '#FAFAFA'
     },
     animation: {
-      'pulse-slow': 'pulse 6s infinite cubic-bezier(0.4, 0, 0.6, 1)',
-      'border-width': 'border-width 3s infinite alternate'
-    },
-    keyframes: {
-      'border-width': {
-        from: { width: '10px', opacity: '0' },
-        to: { width: '100px', opacity: '1' }
+      keyframes: {
+        'pulse-slow': '{0%, 100% {opacity:1} 50% {opacity:.5}}',
+        'border-width':
+          '{ from { width: 10px; opacity: 0; } to { width: 100px; opacity: 1; } }'
+      },
+      durations: {
+        'pulse-slow': '6s',
+        'border-width': '3s'
+      },
+      timingFns: {
+        'pulse-slow': 'cubic-bezier(0.4, 0, 0.6, 1)',
+        'border-width': 'alternate'
+      },
+      counts: {
+        'pulse-slow': 'infinite',
+        'border-width': 'infinite'
       }
     }
   },
