@@ -9,6 +9,8 @@ export interface dataProps {
 export const Community = () => {
   const [data, setData] = useState<dataProps[]>()
 
+  console.log(data)
+
   const BASE_URL = ''
 
   useEffect(() => {
@@ -46,6 +48,7 @@ export const Community = () => {
           <CardPulseBorder
             name={proj.name}
             description={proj.description}
+            stargazers_count={0}
             url={proj.url}
           />
         ))}
