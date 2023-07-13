@@ -4,9 +4,7 @@ export const MainScreen = () => {
   return (
     <>
       <h1 className='text-[44px]'>Sara Montagud</h1>
-      <div className='absolute text-transparent w-[400px] h-[400px] bg-white rounded-full blur-3xl opacity-10 translate-x-[200px] z-0'>
-        a
-      </div>
+      <div className='absolute text-transparent w-[400px] h-[400px] bg-white rounded-full blur-3xl opacity-10 translate-x-[200px] z-0'></div>
       <div className='relative z-1 text-[18px] leading-7 space-y-4xl text-Text-Custom'>
         <p>
           Hi, I'm Sara Montagud, a frontend developer and programming content

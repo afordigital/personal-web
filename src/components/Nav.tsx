@@ -6,8 +6,8 @@ export const Nav = () => {
   const [location] = useLocation()
 
   return (
-    <div className='w-full h-[100px] flex items-center justify-between text-[16px] font-semibold text-Primary'>
-      <Link href='/home' className='ml-20 icons-link'>
+    <div className='hidden w-full max-h-[100px] min-h-[100px] h-[100px] xl:flex items-center justify-between text-[16px] font-semibold text-Primary'>
+      <Link href='/' className='ml-20 icons-link'>
         Sara Montagud
       </Link>
       <div className='flex items-center mr-20 gap-x-4'>
