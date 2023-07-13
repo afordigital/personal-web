@@ -44,8 +44,9 @@ export const Community = () => {
       </div>
       <h1 className='text-[19px] pt-8'>Hackafor</h1>
       <div className='grid grid-cols-3 gap-x-4 w-full'>
-        {hackaforJSON.map(proj => (
+        {hackaforJSON.map((proj, index) => (
           <CardPulseBorder
+            key={index}
             name={proj.name}
             description={proj.description}
             stargazers_count={0}

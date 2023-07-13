@@ -4,7 +4,7 @@ export const MainScreen = () => {
   return (
     <>
       <h1 className='text-[44px]'>Sara Montagud</h1>
-      <div className='absolute text-transparent w-[400px] h-[400px] bg-white rounded-full blur-3xl opacity-10 translate-x-[200px] z-0'></div>
+      {/* <div className='absolute text-transparent w-[400px] h-[400px] bg-white rounded-full blur-3xl opacity-10 translate-x-[50%] z-0'></div> */}
       <div className='relative z-1 text-[18px] leading-7 space-y-4xl text-Text-Custom'>
         <p>
           Hi, I'm Sara Montagud, a frontend developer and programming content
@@ -14,6 +14,8 @@ export const MainScreen = () => {
           Learning live as a creator in{' '}
           <a
             href='https://www.twitch.tv/afor_digital'
+            target='_blank'
+            rel='noopener'
             className='text-White-Custom underline-dotted underline-offset-2 underline-Text-Custom hover:underline-White-Custom ease-in duration-300'
           >
             afor_digital
@@ -32,7 +34,7 @@ export const MainScreen = () => {
           technology, technology that brings value to others.
         </p>
         <p>Find me on</p>
-        <div className='flex gap-x-4 relative z-1'>
+        <div className='flex flex-wrap items-center whitespace-nowrap gap-x-6 relative z-1'>
           <CustomLink href='https://github.com/Aforina' title='Github' />
           <CustomLink href='https://twitter.com/afordigital' title='Twitter' />
           <CustomLink

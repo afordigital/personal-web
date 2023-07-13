@@ -7,10 +7,10 @@ export const Nav = () => {
 
   return (
     <div className='hidden w-full max-h-[100px] min-h-[100px] h-[100px] xl:flex items-center justify-between text-[16px] font-semibold text-Primary'>
-      <Link href='/' className='ml-20 icons-link'>
+      <Link href='/' className='icons-link'>
         Sara Montagud
       </Link>
-      <div className='flex items-center mr-20 gap-x-4'>
+      <div className='flex items-center gap-x-4'>
         <Link
           href='/projects'
           className={`icons-link  ${

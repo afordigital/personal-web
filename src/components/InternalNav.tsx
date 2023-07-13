@@ -4,7 +4,7 @@ export const InternalNav = () => {
   const [location] = useLocation()
 
   return (
-    <div className='flex text-2xl pb-16 px-8 gap-x-4'>
+    <div className='hidden lg:flex text-2xl pb-16 px-8 gap-x-4'>
       <Link
         href='/projects'
         className={`icons-link  ${

@@ -20,7 +20,6 @@ export const Streams = () => {
     )
   }
 
-  console.log(streams)
   useEffect(() => {
     fetchData().then(data => formatData(data))
   }, [])
@@ -29,8 +28,6 @@ export const Streams = () => {
     try {
       const response = await fetch(BASE_URL)
       const jsonData = await response.text()
-
-      console.log(typeof jsonData)
 
       return jsonData
     } catch (error) {
