@@ -21,7 +21,7 @@ function App () {
       </div>
       {location[0] === '/' ? (
         <Route path='/'>
-          <div className='max-w-sm md:max-w-xl lg:max-w-3xl xl:max-w-3xl w-full mx-auto xl:pt-[40px]'>
+          <div className='max-w-sm md:max-w-3xl lg:max-w-3xl xl:max-w-3xl w-full mx-auto xl:pt-[40px]'>
             <div className='p-4'>
               <MainScreen />
             </div>

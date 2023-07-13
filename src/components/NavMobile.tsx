@@ -19,22 +19,34 @@ export const NavMobile = () => {
         {isOpened ? <X onClick={openMenu} /> : <Menu onClick={openMenu} />}
       </div>
       {isOpened && (
-        <div className='absolute z-5 top-20 max-w-screen w-screen h-screen overflow-hidden bg-Background text-white text-3xl'>
+        <div className='absolute z-5 top-20 max-w-screen w-full h-screen overflow-hidden bg-Background text-white text-3xl'>
           <div className='flex flex-col text-[18px] gap-y-1 text-Primary '>
-            <ul className='w-full p-0 m-0 list-none flex flex-col gap-1'>
-              <li className='text-[16px] py-1 font-500 border-b-solid border-gray-800 text-White-Custom border-1 mx-4'>
+            <div className='w-full p-0 m-0 list-none flex flex-col gap-1'>
+              <Link
+                href='/projects'
+                className='text-[16px] underline-transparent py-1 font-500 border-b-solid border-gray-800 text-White-Custom border-1 mx-4'
+              >
                 Projects
-              </li>
-              <li className='text-[16px] py-1 font-500 border-b-solid border-gray-800 text-White-Custom border-1 mx-4'>
+              </Link>
+              <Link
+                href='/talks'
+                className='text-[16px] underline-transparent py-1 font-500 border-b-solid border-gray-800 text-White-Custom border-1 mx-4'
+              >
                 Talks
-              </li>
-              <li className='text-[16px] py-1 font-500 border-b-solid border-gray-800 text-White-Custom border-1 mx-4'>
+              </Link>
+              <Link
+                href='/community'
+                className='text-[16px] underline-transparent py-1 font-500 border-b-solid border-gray-800 text-White-Custom border-1 mx-4'
+              >
                 Community
-              </li>
-              <li className='text-[16px] py-1 font-500 border-b-solid border-gray-800 text-White-Custom border-1 mx-4'>
+              </Link>
+              <Link
+                href='/streams'
+                className='text-[16px] underline-transparent py-1 font-500 border-b-solid border-gray-800 text-White-Custom border-1 mx-4'
+              >
                 Streams
-              </li>
-            </ul>
+              </Link>
+            </div>
           </div>
           <div className='px-4 pt-4 flex items-center gap-x-4'>
             <IconLink

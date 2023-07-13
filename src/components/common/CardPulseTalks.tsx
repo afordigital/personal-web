@@ -20,11 +20,11 @@ export const CardPulseTalks = ({
   index
 }: isTalksProps) => {
   return (
-    <div className='relative h-fit min-h-[100px]  w-[80%]'>
+    <div className='relative w-[80%]'>
       <div className='absolute top-0 flex w-full justify-center'>
         <div className='left-0 h-[1px] animate-border-width rounded-full bg-gradient-to-r from-[rgba(17,17,17,0)] via-white to-[rgba(17,17,17,0)] transition-all duration-1000' />
       </div>
-      <div className='flex gap-x-4 h-full py-4 px-12 items-center rounded-md border border-solid border-slate-800 bg-black'>
+      <div className='flex gap-x-4 h-fit min-h-[70px] py-4 px-12 items-center rounded-md border border-solid border-slate-800 bg-black'>
         <div className='text-Text-Custom'>{icons[index]}</div>
         <div className='flex flex-col gap-y-1 items-start'>
           <a
