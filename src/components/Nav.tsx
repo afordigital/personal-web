@@ -44,7 +44,7 @@ export const Nav = () => {
           Streams
         </Link>
         <IconLink
-          href='https://github.com/Aforina'
+          href='https://github.com/afordigital'
           text='Github'
           icon={<Github color='#BBBBBB' size={18} className='icons-link' />}
         />
@@ -54,7 +54,7 @@ export const Nav = () => {
           icon={<Linkedin color='#BBBBBB' size={18} className='icons-link' />}
         />
         <IconLink
-          href='https://twitter.com/afordigital'
+          href='https://twitter.com/afor_digital'
           text='Twitter'
           icon={<Twitter color='#BBBBBB' size={18} className='icons-link' />}
         />
