@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { CardPulseBorder } from './common/CardPulse'
 
-const BASE_URL = 'https://api.github.com/users/aforina/repos'
+const BASE_URL = 'https://api.github.com/users/afordigital/repos'
 
 export interface isGithubData {
   name: string
