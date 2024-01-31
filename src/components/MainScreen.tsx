@@ -35,14 +35,14 @@ export const MainScreen = () => {
         </p>
         <p>Find me on</p>
         <div className='flex flex-wrap items-center whitespace-nowrap gap-x-6 relative z-1'>
-          <CustomLink href='https://github.com/Aforina' title='Github' />
-          <CustomLink href='https://twitter.com/afordigital' title='Twitter' />
+          <CustomLink href='https://github.com/afordigital' title='Github' />
+          <CustomLink href='https://twitter.com/afor_digital' title='Twitter' />
           <CustomLink
-            href='http://discord.io/Comu-Afor'
+            href='https://discord.gg/comuafor'
             title='Discord Server'
           />
           <CustomLink
-            href='https://www.youtube.com/@afordigital/videos'
+            href='https://www.youtube.com/@afor_digital/videos'
             title='Youtube'
           />
           <CustomLink

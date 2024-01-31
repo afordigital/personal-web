@@ -50,7 +50,7 @@ export const NavMobile = () => {
           </div>
           <div className='px-4 pt-4 flex items-center gap-x-4'>
             <IconLink
-              href='https://github.com/Aforina'
+              href='https://github.com/afordigital'
               text='Github'
               icon={<Github color='#BBBBBB' size={18} className='icons-link' />}
             />
@@ -62,7 +62,7 @@ export const NavMobile = () => {
               }
             />
             <IconLink
-              href='https://twitter.com/afordigital'
+              href='https://twitter.com/afor_digital'
               text='Twitter'
               icon={
                 <Twitter color='#BBBBBB' size={18} className='icons-link' />
