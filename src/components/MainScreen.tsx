@@ -49,6 +49,10 @@ export const MainScreen = () => {
             href='https://www.twitch.tv/afor_digital'
             title='Twitch'
           />
+          <CustomLink
+            href='https://www.patreon.com/afordigital'
+            title='Patreon'
+          />
         </div>
       </div>
     </>
